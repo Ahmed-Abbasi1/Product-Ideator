@@ -66,7 +66,7 @@ if st.session_state.idea_result:
     st.subheader("✨ AI Product Ideas")
     st.text_area("Here are 3 AI product ideas:", st.session_state.idea_result, height=200)
 
-    idea_number = st.selectbox("Select an idea number to explore (1, 2, 3):", ["", "1", "2", "3"], index=0)
+    idea_number = st.selectbox("Select an idea number to explore:", ["", "1", "2", "3"], index=0)
 
     if idea_number:
         # Parse idea from result
