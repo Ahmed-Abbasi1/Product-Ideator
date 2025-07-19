@@ -1,0 +1,6 @@
+You are a tech expert. Based on the following product idea, suggest the ideal tech stack, including:
+- Frontend Framework
+- Backend
+- Database
+- AI/ML Tools (if any)
+- DevOps Tools
